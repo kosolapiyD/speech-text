@@ -20,6 +20,7 @@ function App() {
   console.log('transcript', transcript);
   return (
     <div>
+      <h1>speech text test</h1>
       <p>Microphone: {listening ? 'on' : 'off'}</p>
       <button onClick={SpeechRecognition.startListening}>Start</button>
       <button onClick={SpeechRecognition.stopListening}>Stop</button>
